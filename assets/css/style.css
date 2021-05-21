@@ -28,6 +28,21 @@ header {
   text-align: center;
 }
 
+
+.hamburger-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
 /* 会社概要HTML */
 main {
   width: 100%;
