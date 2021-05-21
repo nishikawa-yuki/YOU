@@ -14,18 +14,25 @@ header {
   justify-content: space-between;
   align-content: center;
   flex-direction: row;
-  height: 40px;
-  padding: 20px 100px;
-}
-
-.header-logo {
-  font-size: 30px;
-  font-family: 'Pacifico', cursive;
+  padding: 0 5%;
 }
 
 .header-left {
   display: flex;
   text-align: center;
+}
+
+.header-logo {
+  font-size: 70px;
+  font-family: 'Pacifico', cursive;
+}
+
+ul {
+  position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .hamburger-li {
@@ -35,7 +42,13 @@ header {
   align-items: center;
 }
 
+.hamburger-li > li {
+  padding: 50px 0;
+}
+
 a {
   text-decoration: none;
+  font-family: 'Pacifico', cursive;
   color: black;
+  font-size: 50px;
 }
