@@ -27,3 +27,15 @@ header {
   display: flex;
   text-align: center;
 }
+
+.hamburger-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
