@@ -38,4 +38,5 @@ $(function () {
         $('.home-main').fadeIn(5000);
       }
     });
+  });
 });
