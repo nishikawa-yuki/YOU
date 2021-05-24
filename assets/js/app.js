@@ -22,12 +22,5 @@ $(function () {
       $('.hamburger-button').fadeIn(5000);
     }
   });
-  $('#hoge')
-  .on('mouseover', function() {
-    $(this).css('background-color', red);
-  })
-  .on('mouseleave', function() {
-    $(this).css('backgroundcolor', white);
-  });
 });
 
