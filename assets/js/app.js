@@ -23,13 +23,13 @@ $(function () {
       }
     });
 
-    $(window).scroll(function () {
-      BlurTextAnimeControl();
-    });
+    // $(window).scroll(function () {
+    //   BlurTextAnimeControl();
+    // });
 
-    $(window).on('load', function () {
-      BlurTextAnimeControl();
-    });
+    // $(window).on('load', function () {
+    //   BlurTextAnimeControl();
+    // });
     $('.home-main').hide();
     $(window).ready(function () {
       let logo = $('.home-main').offset().top;
@@ -39,4 +39,8 @@ $(function () {
       }
     });
   });
+
+  $('.yu-ichi').on('click',function() {
+    $(this).addClass("hover-muover");
+  })
 });
