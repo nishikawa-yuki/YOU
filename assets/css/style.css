@@ -17,7 +17,6 @@ header {
   flex-direction: row;
   padding: 40px 80px;
   width: 80vw;
-  /* height: 20vh; */
 }
 
 .header-left {
@@ -57,7 +56,81 @@ a {
   font-size: 50px;
 }
 
+.home-main  > div {
+  font-size: 40px;
+  padding-top: 30px;
+  font-family: 'Pacifico', cursive;
+  display: inline-block;
+}
 
+.yu-ichi {
+  animation-name: fadeInAnime;/*1で解説*/
+  animation-fill-mode:forwards;/*2で解説*/
+  animation-duration:4s;/*3で解説*/
+  animation-iteration-count:1;/*4で解説*/
+  animation-timing-function:ease;/*5で解説*/
+  animation-delay: 0.5s;/*6で解説*/
+  animation-direction:normal;/*7で解説*/
+  }
+
+
+@keyframes fadeInAnime {
+  0%{
+    /*ここに開始のCSSを記述*/
+    transform: translateX(-200px);
+    }
+  
+  100%{
+    /*ここに終了のCSSを記述*/
+    transform: translateX(400px);
+    }
+  }
+
+  .yuki {
+    animation-name: fadeInAnimeyuki;/*1で解説*/
+    animation-fill-mode:forwards;/*2で解説*/
+    animation-duration:4s;/*3で解説*/
+    animation-iteration-count:1;/*4で解説*/
+    animation-timing-function:ease;/*5で解説*/
+    animation-delay: 0.5s;/*6で解説*/
+    animation-direction:normal;/*7で解説*/
+    }
+  
+  
+  @keyframes fadeInAnimeyuki {
+    0%{
+      /*ここに開始のCSSを記述*/
+      transform: translateX(-200px);
+      }
+    
+    100%{
+      /*ここに終了のCSSを記述*/
+      transform: translateX(750px);
+      }
+    }
+
+    .sussy {
+      animation-name: fadeInAnimesussy;/*1で解説*/
+      animation-fill-mode:forwards;/*2で解説*/
+      animation-duration:4s;/*3で解説*/
+      animation-iteration-count:1;/*4で解説*/
+      animation-timing-function:ease;/*5で解説*/
+      animation-delay: 0.5s;/*6で解説*/
+      animation-direction:normal;/*7で解説*/
+      }
+    
+    
+    @keyframes fadeInAnimesussy {
+      0%{
+        /*ここに開始のCSSを記述*/
+        transform: translateX(-200px);
+        }
+      
+      100%{
+        /*ここに終了のCSSを記述*/
+        transform: translateX(950px);
+        }
+      }
 
 @media screen and (max-width:1200px) {
   .all {
