@@ -8,9 +8,6 @@
   width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-content: center;
 }
 
 header {
@@ -20,7 +17,7 @@ header {
   flex-direction: row;
   padding: 40px 80px;
   width: 80vw;
-  height: 20vh;
+  /* height: 20vh; */
 }
 
 .header-left {
