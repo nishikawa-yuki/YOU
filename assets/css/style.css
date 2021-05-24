@@ -1,0 +1,25 @@
+.hero-lower .hero-heading {
+    font-size: 50px;
+    letter-spacing: .05em;
+    line-height: 1.151;
+}
+.hero-heading{
+    font-family: "Brandon Grotesque",sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+    border-style: solid;
+    border-width: 0;
+    box-sizing: inherit;
+    display: block;
+    text-align: center;
+    color: red;
+}
+.wpcf7-list-item-label {
+    background-color: blue;
+    color: white;
+    border: uvset;
+    box-shadow: black;
+    
+}
