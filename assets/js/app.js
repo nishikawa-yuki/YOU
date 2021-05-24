@@ -22,6 +22,7 @@ $(function () {
       $('.hamburger-button').fadeIn(5000);
     }
   });
+
   
 
   // blurTriggerにblurというクラス名を付ける定義
@@ -49,6 +50,25 @@ $(window).on('load', function () {
 	BlurTextAnimeControl();/* アニメーション用の関数を呼ぶ*/
 });// ここまで画面が読み込まれたらすぐに動かしたい場合の記述
 
+
+
+
+  $('#hoge')
+  .on('mouseover', function() {
+    $(this).css('background-color', red);
+  })
+  .on('mouseleave', function() {
+    $(this).css('backgroundcolor', white);
+  });
+
+  $('.home-main').hide();  
+  $(window).ready(function() {
+    let logo = $('.home-main').offset().top;
+    let wh = $(window).height();
+    if (logo <= $(window).scrollTop() + wh) {
+      $('.home-main').fadeIn(5000);
+    }
+  });
 
 
 });
