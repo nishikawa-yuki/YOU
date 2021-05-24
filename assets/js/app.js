@@ -1,10 +1,4 @@
 $(function () {
-  $(".openbtn").click(function () {
-    $(this).toggleClass('active');
-  });
-
-
-
   $('.company').hide();  
   $(window).ready(function() {
     let logo = $('.company').offset().top;
