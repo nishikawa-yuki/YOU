@@ -13,6 +13,8 @@ $(function () {
       $('.company').fadeIn(5000);
     }
   });
+$(function (){
+
 
   $('.hamburger-button').hide();
   $(window).ready(function () {
@@ -47,18 +49,6 @@ $(window).on('load', function () {
 	BlurTextAnimeControl();
 });
 
-
-
-
-  $('.home-main').hide();  
-  $(window).ready(function() {
-    let logo = $('.home-main').offset().top;
-    let wh = $(window).height();
-    if (logo <= $(window).scrollTop() + wh) {
-      $('.home-main').fadeIn(5000);
-    }
-  });
-
-
 });
 
+});
