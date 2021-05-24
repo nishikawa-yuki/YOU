@@ -19,7 +19,8 @@ header {
   align-content: center;
   flex-direction: row;
   padding: 40px 80px;
-  width: 100%;
+  width: 80vw;
+  height: 20vh;
 }
 
 .header-left {
@@ -76,6 +77,10 @@ a {
 
   .hamburger-li > li {
     padding: 20px 0;
+  }
+
+  a {
+    font-size: 25px;
   }
 }
 
