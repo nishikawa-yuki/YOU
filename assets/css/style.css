@@ -71,8 +71,8 @@ a {
 .home-main {
   padding: 5px;
 }
-
-.hover-muover{
+/* 
+.hover-move{
   animation-name: hover-muoveAnime;
   animation-fill-mode: backwards;
   animation-duration: 2s;
@@ -89,6 +89,10 @@ a {
   100% {
     transform: translate(30px, 0);
   }
+} */
+
+.yu-ichi:hover {
+  transform: translate(30px, 0);
 }
 
 .home-main  > div {
