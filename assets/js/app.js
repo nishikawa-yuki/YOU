@@ -39,8 +39,4 @@ $(function () {
       }
     });
   });
-
-  $('.yu-ichi').on('click',function() {
-    $(this).addClass("hover-muover");
-  })
 });
